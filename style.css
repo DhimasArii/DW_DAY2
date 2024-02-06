@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(229, 242, 253);
+  font-family: sans-serif;
+  color: black;
+}
+
+/* navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 7%;
+  background-color: white;
+}
+
+.navbar .left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .left img {
+  width: 50px;
+  margin-right: 40px;
+}
+
+.navbar .left .navbar-nav a {
+  display: inline-block;
+  margin: 0 20px;
+  font-size: large;
+  color: black;
+}
+
+.navbar .left .navbar-nav .tebal {
+  font-weight: 800;
+}
+
+.navbar .right {
+  background-color: black;
+  padding: 8px 20px;
+  border-radius: 8px;
+}
+
+.navbar .right a {
+  color: white;
+  align-items: center;
+  font-size: large;
+}
+
+/* isi */
+.isi {
+  background-color: white;
+  margin: 80px 50px;
+  padding: 50px 25px;
+  box-shadow: 0 2px 5px black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.isi .left {
+  margin: 50px;
+  padding: 0 50px;
+  text-align: justify;
+}
+
+.isi .left .isi-text h1 {
+  padding: 10px 0;
+}
+
+.isi .left .isi-text p {
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+.isi .left .btn a img {
+  width: 25px;
+}
+
+.isi .right {
+  width: 100%;
+  margin: 50px;
+  text-align: center;
+  background-color: white;
+  border: 1px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px black;
+}
+
+.isi .right img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Download CV */
+.btn button {
+  margin: 60px 0;
+  background-color: black;
+  padding: 8px 20px;
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+}
+
+.btn span {
+  margin: 60px 0;
+  margin-left: 20px;
+}
+
+.btn a img {
+  margin-left: 10px;
+}
+
+/* card */
+.right img {
+  width: 100%;
+}
+
+.right h1 {
+  margin: 30px;
+}

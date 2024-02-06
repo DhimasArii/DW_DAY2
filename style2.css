@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(229, 242, 253);
+  font-family: sans-serif;
+  color: black;
+}
+
+/* navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 7%;
+  background-color: white;
+}
+
+.navbar .left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .left img {
+  width: 50px;
+  margin-right: 40px;
+}
+
+.navbar .left .navbar-nav a {
+  display: inline-block;
+  margin: 0 20px;
+  font-size: large;
+  color: black;
+}
+
+.navbar .left .navbar-nav .tebal {
+  font-weight: 800;
+}
+
+.navbar .right {
+  background-color: black;
+  padding: 8px 20px;
+  border-radius: 8px;
+}
+
+.navbar .right a {
+  color: white;
+  align-items: center;
+  font-size: large;
+}
+
+/* form */
+form {
+  width: 350px;
+  margin: 50px auto;
+  font-weight: bolder;
+}
+
+form .title {
+  margin: 80px 50px;
+  text-align: center;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+  box-shadow: 0 2px 5px black;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+form div button {
+  margin-top: 10px;
+  float: right;
+  background-color: black;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+}
